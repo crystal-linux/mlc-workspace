@@ -1,0 +1,28 @@
+[base]
+mode = "workspace"
+smart_pull = true
+
+[mode.workspace]
+git_info = true
+colorblind = false
+
+[repositories]
+repos = [
+	"crs:amethyst",
+	"crs:branding",
+	"crs:caveman",
+	"crs:crystal-keyring",
+	"crs:grub-theme",
+	"crs:iso", 
+	"crs:jade", 
+	"crs:jade-gui",
+	"crs:malachite",
+	"crs:onyx",
+	"crs:site",
+	"crs:wallpapers",
+	"crs:pkg-warner",
+]
+
+[repositories.urls]
+crs = "ssh://git@github.com/crystal-linux/{}"
+pkg = "ssh://git@github.com/crystal-linux/pkgbuild.{}"
