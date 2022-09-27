@@ -11,18 +11,27 @@ repos = [
 	"crs:amethyst",
 	"crs:branding",
 	"crs:caveman",
+	"crs:crystal-docker",
 	"crs:crystal-keyring",
+	"crs:crystal-update",
+	"crs:docs",
+	"crs:getcryst.al",
+	"crs:.github",
 	"crs:grub-theme",
 	"crs:iso", 
 	"crs:jade", 
 	"crs:jade-gui",
+	"crs:jade-tui",
 	"crs:malachite",
+	"crs:moonstone",
 	"crs:onyx",
-	"crs:site",
-	"crs:wallpapers",
+	"crs:opal",
 	"crs:pkg-warner",
+	"crs:site",
+	"crs:tourmaline",
+	"crs:wallpapers",
+	"crs:webforge",
 ]
 
 [repositories.urls]
 crs = "ssh://git@github.com/crystal-linux/{}"
-pkg = "ssh://git@github.com/crystal-linux/pkgbuild.{}"
