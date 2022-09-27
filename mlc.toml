@@ -24,7 +24,6 @@ repos = [
 	"crs:jade-tui",
 	"crs:malachite",
 	"crs:moonstone",
-	"crs:onyx",
 	"crs:opal",
 	"crs:pkg-warner",
 	"crs:site",
