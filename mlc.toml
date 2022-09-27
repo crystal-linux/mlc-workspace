@@ -31,7 +31,11 @@ repos = [
 	"crs:tourmaline",
 	"crs:wallpapers",
 	"crs:webforge",
+	"mlc:pkgbuilds",
+	"mlc:repos",
+	"mlc:workspace",
 ]
 
 [repositories.urls]
 crs = "ssh://git@github.com/crystal-linux/{}"
+mlc = "ssh://git@github.com/crystal-linux/mlc-{}"
