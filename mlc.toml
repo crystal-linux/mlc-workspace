@@ -30,6 +30,7 @@ repos = [
 	"crs:tourmaline",
 	"crs:wallpapers",
 	"crs:webforge",
+	"gse:caffeine",
 	"mlc:pkgbuilds",
 	"mlc:repos",
 	"mlc:workspace",
@@ -38,3 +39,4 @@ repos = [
 [repositories.urls]
 crs = "ssh://git@github.com/crystal-linux/{}"
 mlc = "ssh://git@github.com/crystal-linux/mlc-{}"
+gse = "ssh://git@github.com/crystal-linux/gnome-shell-extension-{}"
